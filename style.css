@@ -1,0 +1,14 @@
+/* variable */
+:root{
+    --primary-color: #1090CB;
+}
+
+
+/* navbar */
+.home{
+    color: var(--primary-color);
+}
+
+.btn-color{
+    background-color: var(--primary-color);
+}
