@@ -30,9 +30,11 @@
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
-            <li class="nav-item d-flex">
-                <img class="mb-3" src="./images/Ellipse 5.svg" alt="dot">
-              <a class="nav-link home ps-0" aria-current="page" href="#">Home</a>
+            <li class="nav-item d-flex justify-content-center">
+              <img class="mb-4" src="./images/Ellipse 5.svg" alt="dot" />
+              <a class="nav-link home ps-0" aria-current="page" href="#"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
@@ -63,37 +65,113 @@
     <!-- navbar end -->
 
     <!-- hero section start -->
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 m-0">
-      <div class="col-10 col-sm-8 col-lg-6">
+    <div
+      class="row flex-lg-row-reverse align-items-center g-5 pb-5 pb-sm-3 px-2 px-sm-5 m-0 bcolor w-100 justify-content-center align-items-center gap-5 gap-lg-0"
+    >
+      <div class="col-10 col-sm-12 col-lg-5 p-0 m-0">
         <img
-          src="bootstrap-themes.png"
+          src="./images/Group 6.svg"
           class="d-block mx-lg-auto img-fluid"
-          alt="Bootstrap Themes"
+          alt="hero img"
           width="700"
           height="500"
           loading="lazy"
         />
+        <div class="position-absolute top-100 end-0 translate-middle-y m-0 p-0">
+          <img src="./images/Vector 1.svg" alt="vector1" />
+        </div>
       </div>
-      <div class="col-lg-6">
-        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-          Responsive left-aligned hero with image
+      <div class="col-lg-7 gap-3 d-flex row text-center text-sm-start">
+        <div>
+          <img
+            class="position-absolute start-0 top-50"
+            src="./images/Vector 2.svg"
+            alt="vector2"
+          />
+        </div>
+        <h1 class="display-5 fs-1 fw-semibold text-body-emphasis lh-sm mb-3">
+          Experienced <span class="home">mobile and web</span> applications and
+          website builders measuring.
         </h1>
-        <p class="lead">
-          Quickly design and customize responsive mobile-first sites with
-          Bootstrap, the world’s most popular front-end open source toolkit,
-          featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.
+        <p class="lead detail fs-6 lh-lg">
+          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+          applications and website builders measuring dozens of completed
+          projects. We build and develop mobile applications for several top
+          platforms, <br />
+          including Android & IOS.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-            Primary
+          <button
+            type="button"
+            class="btn btn-lg px-4 me-md-2 text-white btn-color"
+          >
+            Contact us
           </button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            Default
+          <button type="button" class="btn second-btn bg-white btn-lg px-4">
+            View more
           </button>
         </div>
       </div>
     </div>
+    <!-- hero section end -->
+
+    <!-- features start -->
+    <div
+      class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 w-100 m-0"
+    >
+      <div class="col d-flex align-items-start">
+        <div>
+          
+        </div>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg
+          class="bi text-body-secondary flex-shrink-0 me-3"
+          width="1.75em"
+          height="1.75em"
+          aria-hidden="true"
+        >
+          <use xlink:href="#cpu-fill"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg
+          class="bi text-body-secondary flex-shrink-0 me-3"
+          width="1.75em"
+          height="1.75em"
+          aria-hidden="true"
+        >
+          <use xlink:href="#calendar3"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <svg
+          class="bi text-body-secondary flex-shrink-0 me-3"
+          width="1.75em"
+          height="1.75em"
+          aria-hidden="true"
+        >
+          <use xlink:href="#home"></use>
+        </svg>
+        <div>
+          <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading.</p>
+        </div>
+      </div>
+    </div>
+    <!-- features end -->
 
     <!-- bootstrap javascript -->
     <script src="bootstrap.js"></script>
