@@ -51,3 +51,27 @@ body{
     border: 1px solid var(--primary-color);
 }
 
+/* features */
+.back1{
+    background-color: #EFEAFF;
+}
+
+.back2{
+    background: #ECFFDA;
+}
+
+.back3{
+    background: #DAE6FF;
+}
+
+.back4{
+    background: #FFE5DA;
+}
+
+.color1{
+    color:#969696;
+}
+
+.bm{
+    border-bottom: 1px solid #C7C7C7;
+}
