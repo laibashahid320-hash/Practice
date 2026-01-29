@@ -15,6 +15,7 @@ body{
     --secondary-color: #5C5C5C;
     --newcolor: #252525;
     --new2color: #868686;
+    --new3color: #F4F4F4;
 }
 
 
@@ -99,4 +100,18 @@ body{
 /* hero 4 */
 .purple{
     background: #9208D3;
+}
+
+/* cards */
+.ccolor{
+    background-color: var(--new3color);
+}
+
+.ctcolor{
+    background-color: var(--primary-color);
+}
+
+/* footer */
+.footercolor{
+    color:#515151;
 }

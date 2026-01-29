@@ -1,234 +1,521 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Practice</title>
-  <link rel="stylesheet" href="bootstrap.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg bg-white px-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/LOGO.svg" alt="LOGO"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
+            <li class="nav-item d-flex justify-content-center">
+              <img class="mb-4" src="./images/Ellipse 5.svg" alt="dot" />
+              <a class="nav-link home ps-0" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About us</a
+              >
+            </li>
 
-<body>
-  <!-- navbar start -->
-  <nav class="navbar navbar-expand-lg bg-white px-3">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="./images/LOGO.svg" alt="LOGO" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-5">
-          <li class="nav-item d-flex justify-content-center">
-            <img class="mb-4" src="./images/Ellipse 5.svg" alt="dot" />
-            <a class="nav-link home ps-0" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About us</a>
-          </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            </li>
+          </ul>
+          <form class="d-flex justify-content-center" role="search">
+            <button
+              class="btn px-4 text-white btn-color ms-0 ms-lg-5 mt-5 mt-lg-0"
+              type="submit"
+            >
+              Contact us
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
 
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Blog</a>
-          </li>
-        </ul>
-        <form class="d-flex justify-content-center" role="search">
-          <button class="btn px-4 text-white btn-color ms-0 ms-lg-5 mt-5 mt-lg-0" type="submit">
+    <!-- hero section start -->
+    <div
+      class="row flex-lg-row-reverse align-items-center g-5 pb-5 pb-lg-3 px-2 px-sm-5 m-0 bcolor w-100 justify-content-center align-items-center gap-5 gap-lg-0"
+    >
+      <div class="col-10 col-sm-12 col-lg-5 p-0 m-0">
+        <!-- <img class="position-absolute z-n1" src="./images/Ellipse 4.svg" alt="ellips"> -->
+        <img
+          src="./images/Group 6.svg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="hero img"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+        <div
+          class="position-absolute top-100 end-0 translate-middle-y m-0 p-0 d-none d-lg-block"
+        >
+          <img src="./images/Vector 1.svg" alt="vector1" />
+        </div>
+      </div>
+      <div class="col-lg-7 gap-3 d-flex row text-center text-sm-start">
+        <div class="d-none d-lg-block">
+          <img
+            class="position-absolute start-0 top-50"
+            src="./images/Vector 2.svg"
+            alt="vector2"
+          />
+        </div>
+        <h1 class="display-5 fs-1 fw-semibold text-body-emphasis lh-sm mb-3">
+          Experienced <span class="home">mobile and web</span> applications and
+          website builders measuring.
+        </h1>
+        <p class="lead detail fs-6 lh-lg">
+          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+          applications and website builders measuring dozens of completed
+          projects. We build and develop mobile applications for several top
+          platforms, <br />
+          including Android & IOS.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button
+            type="button"
+            class="btn btn-lg px-4 me-md-2 text-white btn-color"
+          >
             Contact us
           </button>
-        </form>
+          <button type="button" class="btn second-btn bg-white btn-lg px-4">
+            View more
+          </button>
+        </div>
       </div>
     </div>
-  </nav>
-  <!-- navbar end -->
+    <!-- hero section end -->
 
-  <!-- hero section start -->
-  <div
-    class="row flex-lg-row-reverse align-items-center g-5 pb-5 pb-lg-3 px-2 px-sm-5 m-0 bcolor w-100 justify-content-center align-items-center gap-5 gap-lg-0">
-    <div class="col-10 col-sm-12 col-lg-5 p-0 m-0">
-      <img src="./images/Group 6.svg" class="d-block mx-lg-auto img-fluid" alt="hero img" width="700" height="500"
-        loading="lazy" />
-      <div class="position-absolute top-100 end-0 translate-middle-y m-0 p-0 d-none d-lg-block">
-        <img src="./images/Vector 1.svg" alt="vector1" />
+    <!-- features start -->
+    <div
+      class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 pt-4 pb-5 ps-5 px-sm-5 w-100 m-0 bm align-items-center justify-content-center"
+    >
+      <div class="col d-flex align-items-start gap-3 justify-content-center">
+        <div class="back1 p-3 rounded-4">
+          <img src="./images/website-content 1.svg" alt="feature1" />
+        </div>
+        <div class="d-flex row align-items-center mt-3">
+          <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">
+            Web Application
+          </h5>
+          <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start gap-3 justify-content-center">
+        <div class="back2 p-3 rounded-4">
+          <img src="./images/Group.svg" alt="feature2" />
+        </div>
+        <div class="d-flex row align-items-center mt-3">
+          <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">SEO</h5>
+          <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start gap-3 justify-content-center">
+        <div class="back3 p-3 rounded-4">
+          <img src="./images/immersive 1.svg" alt="feature3" />
+        </div>
+        <div class="d-flex row align-items-center mt-3">
+          <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">
+            AR/VR Solutions
+          </h5>
+          <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
+        </div>
+      </div>
+
+      <div class="col d-flex align-items-start gap-3 justify-content-center">
+        <div class="back4 p-3 rounded-4">
+          <img src="./images/Group (1).svg" alt="feature4" />
+        </div>
+        <div class="d-flex row align-items-center mt-3">
+          <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">
+            Mobile Applications
+          </h5>
+          <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
+        </div>
       </div>
     </div>
-    <div class="col-lg-7 gap-3 d-flex row text-center text-sm-start">
-      <div class="d-none d-lg-block">
-        <img class="position-absolute start-0 top-50" src="./images/Vector 2.svg" alt="vector2" />
-      </div>
-      <h1 class="display-5 fs-1 fw-semibold text-body-emphasis lh-sm mb-3">
-        Experienced <span class="home">mobile and web</span> applications and
-        website builders measuring.
+    <!-- features end -->
+
+    <!-- text start -->
+    <div class="px-4 pt-5 my-5 text-center gap-3 d-flex row m-0">
+      <h1 class="display-4 fw-semibold fs-2 text-body-emphasis loremcolor">
+        Lorem Ipsum is simply dummy text of the printing.
       </h1>
-      <p class="lead detail fs-6 lh-lg">
-        KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
-        applications and website builders measuring dozens of completed
-        projects. We build and develop mobile applications for several top
-        platforms, <br />
-        including Android & IOS.
-      </p>
-      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button type="button" class="btn btn-lg px-4 me-md-2 text-white btn-color">
-          Contact us
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4 textcolor fs-6">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's
+        </p>
+      </div>
+    </div>
+    <!-- text end -->
+
+    <!-- hero 2 start -->
+    <div
+      class="row flex-lg-row-reverse align-items-center g-5 py-5 w-100 m-0 px-2 px-sm-5 justify-content-center"
+    >
+      <div class="col-10 col-sm-12 col-lg-6 p-0 m-0 mb-5">
+        <img
+          class="position-absolute end-0 d-none d-lg-block"
+          src="./images/Ellipse 3 (1).svg"
+          alt="ellipse"
+        />
+        <img
+          src="./images/17. Recent Activities 1.svg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+      <div
+        class="col-lg-6 gap-4 d-flex row align-items-center justify-content-center"
+      >
+        <div
+          class="col-md-12 d-flex align-items-center align-items-sm-start justify-content-center justify-content-lg-start"
+        >
+          <!-- <img class="position-absolute d-none d-lg-block" src="./images/Vector 4.svg" alt="vector"> -->
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 happy1 p-3 rounded-5"
+          >
+            <img src="./images/happy 1.svg" alt="happy face" />
+          </div>
+          <div>
+            <h3 class="fs-5 fw-semibold text-body-emphasis">
+              Lorem Ipsum is simply dummy text
+            </h3>
+            <p class="textcolor">Lorem Ipsum is simply dummy text</p>
+          </div>
+        </div>
+        <h1
+          class="display-5 fw-semibold fs-2 text-body-emphasis lh-base mb-3 loremcolor text-center text-lg-start"
+        >
+          <span class="home">Lorem Ipsum</span> is simply dummy <br />
+          text of the printing.
+        </h1>
+        <p class="lead greycolor fs-5 text-center text-lg-start">
+          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+          applications and website builders measuring dozens of completed
+          projects. We build and develop mobile applications for several top
+          platforms, including Android & IOS.
+        </p>
+      </div>
+    </div>
+    <!-- hero 2 end -->
+
+    <!-- hero 3 start -->
+    <div
+      class="row flex-lg-row align-items-center g-5 py-5 w-100 m-0 px-2 px-sm-5 justify-content-center"
+    >
+      <div class="col-10 col-sm-12 col-lg-6 p-0 m-0 mb-5">
+        <img
+          class="position-absolute z-n1 d-none d-lg-block"
+          src="./images/Ellipse 4.svg"
+          alt="ellipse"
+        />
+        <img
+          src="./images/website-mockup-png-10 1.svg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+      <div
+        class="col-lg-6 gap-4 d-flex row align-items-center justify-content-center"
+      >
+        <div
+          class="col-md-12 d-flex align-items-center align-items-sm-start justify-content-center justify-content-lg-start"
+        >
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 btn-color p-3 rounded-5"
+          >
+            <img src="./images/happy 1.svg" alt="happy face" />
+          </div>
+          <div>
+            <h3 class="fs-5 fw-semibold text-body-emphasis">
+              Lorem Ipsum is simply dummy text
+            </h3>
+            <p class="textcolor">Lorem Ipsum is simply dummy text</p>
+          </div>
+        </div>
+        <h1
+          class="display-5 fw-semibold fs-2 text-body-emphasis lh-base mb-3 loremcolor text-center text-lg-start"
+        >
+          <span class="home">Lorem Ipsum</span> is simply dummy <br />
+          text of the printing.
+        </h1>
+        <p class="lead greycolor fs-5 text-center text-lg-start">
+          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+          applications and website builders measuring dozens of completed
+          projects. We build and develop mobile applications for several top
+          platforms, including Android & IOS.
+        </p>
+      </div>
+    </div>
+    <!-- hero 3 end -->
+
+    <!-- hero 4 start -->
+    <div
+      class="row flex-lg-row-reverse align-items-center g-5 py-5 w-100 m-0 px-2 px-sm-5 justify-content-center"
+    >
+      <div class="col-10 col-sm-12 col-lg-6 p-0 m-0 mb-5">
+        <img
+          class="position-absolute end-0 z-n1 w-25 d-none d-lg-block"
+          src="./images/e.svg"
+          alt="ellipse"
+        />
+        <img
+          src="./images/focus-parallax-hero_1920x1000_ar-vr_0917_layer1-guy 1.svg"
+          class="d-block mx-lg-auto img-fluid"
+          alt="Bootstrap Themes"
+          width="700"
+          height="500"
+          loading="lazy"
+        />
+      </div>
+      <div
+        class="col-lg-6 gap-4 d-flex row align-items-center justify-content-center"
+      >
+        <div
+          class="col-md-12 d-flex align-items-center align-items-sm-start justify-content-center justify-content-lg-start"
+        >
+          <div
+            class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 purple p-3 rounded-5"
+          >
+            <img src="./images/happy 1.svg" alt="happy face" />
+          </div>
+          <div>
+            <h3 class="fs-5 fw-semibold text-body-emphasis">
+              Lorem Ipsum is simply dummy text
+            </h3>
+            <p class="textcolor">Lorem Ipsum is simply dummy text</p>
+          </div>
+        </div>
+        <h1
+          class="display-5 fw-semibold fs-2 text-body-emphasis lh-base mb-3 loremcolor text-center text-lg-start"
+        >
+          <span class="home">Lorem Ipsum</span> is simply dummy <br />
+          text of the printing.
+        </h1>
+        <p class="lead greycolor fs-5 text-center text-lg-start">
+          KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+          applications and website builders measuring dozens of completed
+          projects. We build and develop mobile applications for several top
+          platforms, including Android & IOS.
+        </p>
+      </div>
+    </div>
+    <!-- hero 4 end -->
+
+    <!-- cards start -->
+    <div
+      class="justify-content-center d-flex my-5 py-5 gap-5 row px-4 px-sm-0 m-0"
+    >
+      <div
+        class="card rounded-4 text-center ccolor border-0 p-4"
+        style="width: 28rem"
+      >
+        <div class="card-body gap-3 d-flex row justify-content-center">
+          <h5 class="card-title fw-semibold lh-base loremcolor">
+            Lorem Ipsum is simply <br />
+            dummy text.
+          </h5>
+          <p class="card-text fs-6 greycolor">
+            KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+            applications and website builders measuring dozens of completed
+            projects. We build and develop mobile applications for several top
+            platforms, including Android & IOS.
+          </p>
+          <a href="#" class="btn text-white w-50 fs-6 btn-color">View More</a>
+        </div>
+      </div>
+
+      <div
+        class="card rounded-4 text-center ctcolor border-0 p-4"
+        style="width: 28rem"
+      >
+        <!-- <img class="position-absolute end-0 bottom-50" src="./images/Bell Angle 1 (1).svg" alt="bell"> -->
+        <div class="card-body gap-3 d-flex row justify-content-center">
+          <h5 class="card-title fw-semibold lh-base text-white">
+            Lorem Ipsum is simply <br />
+            dummy text.
+          </h5>
+          <p class="card-text fs-6 text-white">
+            KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web
+            applications and website builders measuring dozens of completed
+            projects. We build and develop mobile applications for several top
+            platforms, including Android & IOS.
+          </p>
+          <a href="#" class="btn text-white w-50 fs-6 bg-white home"
+            >View More</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- cards end -->
+
+    <!-- company start -->
+    <div class="pt-5 pb-0 mb-0">
+      <img class="position-absolute z-n1" src="./images/e1.svg" alt="ellipse" />
+      <div class="pt-5">
+        <h1 class="display-4 fw-semibold fs-4 text-body-emphasis text-center">
+          You will be in good Company
+        </h1>
+      </div>
+      <div
+        class="d-flex col-lg-12 justify-content-lg-evenly justify-content-center align-items-center pb-2 row m-0"
+      >
+        <span class="col-lg-2 col-md-4 text-center mx-4">
+          <img src="./images/beneoshop.svg" alt="company" />
+        </span>
+
+        <span class="col-lg-2 col-md-4 text-center mx-4">
+          <img src="./images/caspio.svg" alt="company" />
+        </span>
+
+        <span class="col-lg-2 col-md-4 text-center mx-4">
+          <img src="./images/HyperGrid.svg" alt="company" />
+        </span>
+
+        <span class="col-lg-2 col-md-4 text-center mx-4">
+          <img src="./images/leotrippi.svg" alt="company" />
+        </span>
+      </div>
+    </div>
+    <!-- company end -->
+
+    <!-- email start -->
+    <div
+      class="px-4 py-5 my-5 text-center gap-3 d-flex row m-0 bcolor justify-content-center"
+    >
+      <h1
+        class="display-4 fw-semibold fs-2 text-body-emphasis lh-base loremcolor pt-5 pb-4"
+      >
+        Lorem Ipsum is simply dummy <br />
+        text of the printing.
+      </h1>
+      <form class="d-flex w-50 pb-5" role="search">
+        <input
+          class="form-control me-2 border-0 ps-4"
+          type="search"
+          placeholder="Enter your email"
+          aria-label="Search"
+        />
+        <button
+          class="btn bg-black rounded-3 text-white px-4 fs-6 py-3"
+          type="SUBSCRIBE"
+        >
+          SUBSCRIBE
         </button>
-        <button type="button" class="btn second-btn bg-white btn-lg px-4">
-          View more
-        </button>
-      </div>
+      </form>
     </div>
-  </div>
-  <!-- hero section end -->
+    <!-- email end -->
 
-  <!-- features start -->
-  <div
-    class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4 pt-4 pb-5 ps-5 px-sm-5 w-100 m-0 bm align-items-center justify-content-center">
-    <div class="col d-flex align-items-start gap-3 justify-content-center">
-      <div class="back1 p-3 rounded-4">
-        <img src="./images/website-content 1.svg" alt="feature1" />
+    <!-- footer start -->
+    <footer
+      class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-4 my-5 border-bottom m-0"
+    >
+      <div class="col mb-3">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+          aria-label="Bootstrap"
+        >
+        <img src="./images/LOGO (1).svg" alt="logo">
+        </a>
+        <p class="footercolor">©Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p class="footercolor">@Lorem</p>
       </div>
-      <div class="d-flex row align-items-center mt-3">
-        <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">
-          Web Application
-        </h5>
-        <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
+      <div class="col mb-3"></div>
+      <div class="col mb-3">
+        <h5 class="fw-bold">About us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Lorem</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Portfolio</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Careers</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Contact us</a>
+          </li>
+        </ul>
       </div>
-    </div>
+      <div class="col mb-3">
+        <h5>Contact us</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">+908 89097 890</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col mb-3">
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- footer end -->
 
-    <div class="col d-flex align-items-start gap-3 justify-content-center">
-      <div class="back2 p-3 rounded-4">
-        <img src="./images/Group.svg" alt="feature2" />
-      </div>
-      <div class="d-flex row align-items-center mt-3">
-        <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">SEO</h5>
-        <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
-      </div>
-    </div>
-
-    <div class="col d-flex align-items-start gap-3 justify-content-center">
-      <div class="back3 p-3 rounded-4">
-        <img src="./images/immersive 1.svg" alt="feature3" />
-      </div>
-      <div class="d-flex row align-items-center mt-3">
-        <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">
-          AR/VR Solutions
-        </h5>
-        <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
-      </div>
-    </div>
-
-    <div class="col d-flex align-items-start gap-3 justify-content-center">
-      <div class="back4 p-3 rounded-4">
-        <img src="./images/Group (1).svg" alt="feature4" />
-      </div>
-      <div class="d-flex row align-items-center mt-3">
-        <h5 class="fw-semibold mb-0 fs-5 text-body-emphasis">
-          Mobile Applications
-        </h5>
-        <p class="color1 m-0 fs-6">Lorem Ipsum is simply</p>
-      </div>
-    </div>
-  </div>
-  <!-- features end -->
-
-  <!-- text start -->
-  <div class="px-4 pt-5 my-5 text-center gap-3 d-flex row m-0">
-    <h1 class="display-4 fw-semibold fs-2 text-body-emphasis loremcolor">Lorem Ipsum is simply dummy text of the
-      printing.</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4 textcolor fs-6">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-      </p>
-    </div>
-  </div>
-  </div>
-  <!-- text end -->
-
-  <!-- hero 2 start -->
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5 w-100 m-0 px-2 px-sm-5 justify-content-center">
-    <div class="col-10 col-sm-12 col-lg-6 p-0 m-0 mb-5 "> <img src="./images/17. Recent Activities 1.svg"
-        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
-    <div class="col-lg-6 gap-4 d-flex row align-items-center justify-content-center">
-      <div class="col-md-12 d-flex align-items-center align-items-sm-start justify-content-center justify-content-lg-start">
-        <!-- <img class="position-absolute d-none d-lg-block" src="./images/Vector 4.svg" alt="vector"> -->
-        <div
-          class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 happy1 p-3 rounded-5">
-          <img src="./images/happy 1.svg" alt="happy face">
-        </div>
-        <div>
-          <h3 class="fs-5 fw-semibold text-body-emphasis">Lorem Ipsum is simply dummy text</h3>
-          <p class="textcolor">Lorem Ipsum is simply dummy text</p>
-        </div>
-      </div>
-      <h1 class="display-5 fw-semibold fs-2 text-body-emphasis lh-base mb-3 loremcolor text-center text-lg-start"><span class="home">Lorem
-          Ipsum</span> is simply dummy <br> text
-        of the printing. </h1>
-      <p class="lead greycolor fs-5 text-center text-lg-start">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and
-        website
-        builders measuring dozens of completed projects. We build and develop mobile applications for several top
-        platforms, including Android & IOS. </p>
-    </div>
-  </div>
-  <!-- hero 2 end -->
-
-  <!-- hero 3 start -->
-  <div class="row flex-lg-row align-items-center g-5 py-5 w-100 m-0 px-2 px-sm-5 justify-content-center">
-    <div class="col-10 col-sm-12 col-lg-6 p-0 m-0 mb-5 "> <img src="./images/website-mockup-png-10 1.svg"
-        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
-    <div class="col-lg-6 gap-4 d-flex row align-items-center justify-content-center">
-      <div class="col-md-12 d-flex align-items-center align-items-sm-start justify-content-center justify-content-lg-start">
-        <!-- <img class="position-absolute d-none d-lg-block" src="./images/Vector 4.svg" alt="vector"> -->
-        <div
-          class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 btn-color p-3 rounded-5">
-          <img src="./images/happy 1.svg" alt="happy face">
-        </div>
-        <div>
-          <h3 class="fs-5 fw-semibold text-body-emphasis">Lorem Ipsum is simply dummy text</h3>
-          <p class="textcolor">Lorem Ipsum is simply dummy text</p>
-        </div>
-      </div>
-      <h1 class="display-5 fw-semibold fs-2 text-body-emphasis lh-base mb-3 loremcolor text-center text-lg-start"><span class="home">Lorem
-          Ipsum</span> is simply dummy <br> text
-        of the printing. </h1>
-      <p class="lead greycolor fs-5 text-center text-lg-start">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and
-        website
-        builders measuring dozens of completed projects. We build and develop mobile applications for several top
-        platforms, including Android & IOS. </p>
-    </div>
-  </div>
-  <!-- hero 3 end -->
-
-  <!-- hero 4 start -->
-  <div class="row flex-lg-row-reverse align-items-center g-5 py-5 w-100 m-0 px-2 px-sm-5 justify-content-center">
-    <div class="col-10 col-sm-12 col-lg-6 p-0 m-0 mb-5 "> <img src="./images/focus-parallax-hero_1920x1000_ar-vr_0917_layer1-guy 1.svg"
-        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
-    <div class="col-lg-6 gap-4 d-flex row align-items-center justify-content-center">
-      <div class="col-md-12 d-flex align-items-center align-items-sm-start justify-content-center justify-content-lg-start">
-        <!-- <img class="position-absolute d-none d-lg-block" src="./images/Vector 4.svg" alt="vector"> -->
-        <div
-          class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3 purple p-3 rounded-5">
-          <img src="./images/happy 1.svg" alt="happy face">
-        </div>
-        <div>
-          <h3 class="fs-5 fw-semibold text-body-emphasis">Lorem Ipsum is simply dummy text</h3>
-          <p class="textcolor">Lorem Ipsum is simply dummy text</p>
-        </div>
-      </div>
-      <h1 class="display-5 fw-semibold fs-2 text-body-emphasis lh-base mb-3 loremcolor text-center text-lg-start"><span class="home">Lorem
-          Ipsum</span> is simply dummy <br> text
-        of the printing. </h1>
-      <p class="lead greycolor fs-5 text-center text-lg-start">KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and
-        website
-        builders measuring dozens of completed projects. We build and develop mobile applications for several top
-        platforms, including Android & IOS. </p>
-    </div>
-  </div>
-  <!-- hero 4 end -->
-
-  <!-- bootstrap javascript -->
-  <script src="bootstrap.js"></script>
-</body>
-
+    <!-- bootstrap javascript -->
+    <script src="bootstrap.js"></script>
+  </body>
 </html>
